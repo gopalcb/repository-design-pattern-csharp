@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My ASP.NET Application</title>
+	@{
+		Layout = "~/_Layout.cshtml";
+	}
+</head>
+<body ng-app="StudentApp">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<span>Web Api2 with AngularJS Routing</span>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav"></ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container body-content">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="page-header">
+					<h1 class="title-header">DEMO APP<small> Single Page with AngularJS Routing, Unit of Works- High level system architecture, Web API 2.0, Cross Origin Resource Sharing(CORS), Separation of Concern(SOC)</small></h1>
+				</div>
+			</div>
+
+			<div class="col-md-12" ng-view></div>
+		</div>
+
+		<hr />
+		<footer>
+			<p>&copy; My ASP.NET Application</p>
+		</footer>
+	</div>
+</body>
+</html>

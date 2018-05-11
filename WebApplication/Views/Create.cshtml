@@ -1,0 +1,59 @@
+﻿@{
+	Layout = "~/_Layout.cshtml";
+}
+@*<div class="modal fade modal-student-editor" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">Modal title</h4>
+			</div>
+			<div class="modal-body student-editor-container">
+
+				
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-default">Save</button>
+			</div>
+		</div>
+	</div>
+</div>*@
+
+<div class="panel panel-default">
+	<div class="panel-heading">Add New Student</div>
+	<div class="panel-body">
+
+		<form>
+
+			<input type="hidden" ng-model="ID" value="{{student.StudentID}}">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<input type="text" class="form-control" ng-model="Name" placeholder="Name" value="{{student.Name}}">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<input type="text" class="form-control" ng-model="Email" placeholder="Email" value="{{student.Email}}">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<input type="text" class="form-control" ng-model="University" placeholder="University" value="{{student.University}}">
+					</div>
+				</div>
+			</div>
+
+			<button type="button" class="btn btn-default" ng-click="Save()">Save</button>
+
+		</form>
+
+	</div>
+</div>
