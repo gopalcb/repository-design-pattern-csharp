@@ -6,7 +6,7 @@ Architecture diagram:
 
 ![](images/repository-aggregate-database-table-relationships.png)
 
-## App Hierarchy:
+## App Hierarchy: 
 
 Data
  
