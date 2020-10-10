@@ -34,7 +34,7 @@ Web App
  
 public abstract class EntityBase
 {
-   public int Id { get; protected set; }
+   public int Id { get; protected set; } 
 }
 ```
 
