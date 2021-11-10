@@ -1,4 +1,4 @@
-## The Repository pattern:
+## The Repository pattern: 
 
 In Repository pattern, Repositories are the components that is used to encapsulate the core logic required for accessing data sources.
 
